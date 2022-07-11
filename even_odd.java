@@ -6,7 +6,6 @@ public class even_odd
        if(n%2==0)
        System.out.println("even");
        if(n%2!=0)
-       System.out.println("odd");
-       
+       System.out.println("odd");  
     }
 }
