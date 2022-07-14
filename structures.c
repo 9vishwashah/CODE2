@@ -16,7 +16,7 @@ int main(){
     e1.code = 100;
     e1.salary = 34.454;
 
-    strcpy(e1.name, "Harry");
+    strcpy(e1.name, "vishwa");
 
     printf("%d\n", e1.code);
     printf("%.3f\n", e1.salary);
