@@ -3,7 +3,7 @@ class swap
 {
     static void sw(float m,float n)
 	{
-		m = m - n;
+	m = m - n;
     	n = m + n;
         m = n - m;
         System.out.println("After Swap: Value of m is " + m + " and Value of n is " + n);
