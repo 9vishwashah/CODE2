@@ -35,10 +35,3 @@ def Validate_It(IP):
 IP = int(input("Enter the IP address\n")
 print(Validate_It(IP))
 
-# b = int(input("Enter the IP address\n")
-# print(Validate_It(IP))
-
-# c = int(input("Enter the IP address\n")
-# print(Validate_It(IP))
-
-# This code is contributed by avanitrachhadiya2155
