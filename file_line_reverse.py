@@ -1,0 +1,11 @@
+f = open('text.txt', 'r')
+lines = f.readlines()
+f.close()
+choice = 1
+line = lines[choice].split()
+Reversed = " ".join(line[::-1])
+lines.pop(choice)
+lines.insert(choice, Reversed)
+u = open('text.txt', 'w')
+u.writelines(lines)
+u.close()
