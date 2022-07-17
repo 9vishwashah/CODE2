@@ -1,0 +1,10 @@
+import re
+string = input("Enter the string ")
+a = re.findall(r"[A-Z]", string)
+b = re.findall(r"[a-z]", string)
+c = re.findall(r"[0-9]", string)
+d = re.findall(r"[, .!?]", string)
+print("The no. of uppercase characters is", len(a))
+print("The no. of lowercase characters is", len(b))
+print("The no. of numerical characters is", len(c))
+print("The no. of special characters is", len(d))
